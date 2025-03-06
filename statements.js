@@ -31,7 +31,28 @@ if (fruit === "apple") {
 }
 
 //selection using switch -> this is na assignment
+
 //repetition using while loop
+
+//natural terminating loop
+
+let count = 0;
+
+while (count < 5) {
+    console.log(`count ${count}`)
+    //terminating condition
+    //count = count + 1
+}
+
+console.log(count)
+
+//do/while - always runs at least once
+let countTwo = 6
+
+do {
+    console.log(`count ${countTwo}`)
+    countTwo++
+} while (countTwo)
    
 
 console.log("execution is still happening")
