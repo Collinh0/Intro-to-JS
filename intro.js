@@ -41,3 +41,22 @@ console.log(age)
 //reassignment - giving a different value to the same variable
 
 //let age = 45
+
+//continuatiopn from functions.js [line 34]
+
+//we cannot redeclare
+//last name = 'new name'
+
+function sum(x = 2, y = 3) {
+    console.log(x + y)
+}
+
+sum()
+sum(2, 2)
+sum( '', 10)
+console.log(sum(1, 1))
+
+//our function doesnt have an output even though there is some logic
+//we always going to get undefined
+//if we mee
+
