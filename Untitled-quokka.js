@@ -35,9 +35,9 @@ console.log(true)
 //4. objects -> collection of related data cosisting of key,value pairs separated
 // comma - we use curly brackets
 const student = {
-    name: "collins"
-    class: "sd-ft13"
-    age: "23"
+    name: "collins",
+    class: "sd-ft13",
+    age: "23",
     isHardworking: "false"
 }
 
